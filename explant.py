@@ -810,12 +810,12 @@ init_db()
 
 # Streamlit app
 st.set_page_config(
-    page_title="Tissue Culture Tracker",
+    page_title="Tissue Culture Electronic Lab Notebook",
     page_icon=None,
     layout="wide"
 )
 
-st.title("Tissue Culture Explant Tracker")
+st.title("Tissue Culture Electronic Lab Notebook")
 
 # Sidebar navigation
 page = st.sidebar.selectbox(
